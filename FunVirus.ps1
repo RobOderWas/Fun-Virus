@@ -1,3 +1,5 @@
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
+
 for($i=0; $i -le 100; $i++){
 Write-Progress -Activity "DOWNLOADING VIRUS" -PercentComplete $i -Status "Downloading $($i) of 100";
 sleep -Milliseconds 100
@@ -32,4 +34,4 @@ Write-Host "Bye Bye ;)" -ForegroundColor DarkRed -BackgroundColor Red
 
 Start-Sleep -Seconds 2
 
-Start-Process "https://www.youtube.com/watch?v=8ybW48rKBME"
+Start-Process "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
